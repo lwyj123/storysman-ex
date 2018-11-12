@@ -1,6 +1,6 @@
 package cli
 
-import "github.com/bbuck/dragon-mud/random"
+import "github.com/lwyj123/storysman-ex/utils/random"
 
 type dragonDetails struct {
 	name, color string

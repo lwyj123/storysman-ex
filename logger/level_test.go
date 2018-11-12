@@ -1,7 +1,7 @@
 package logger_test
 
 import (
-	"github.com/bbuck/dragon-mud/logger"
+	"github.com/lwyj123/storysman-ex/logger"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/sirupsen/logrus"

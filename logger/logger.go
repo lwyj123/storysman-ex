@@ -9,8 +9,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/bbuck/dragon-mud/errs"
-	"github.com/bbuck/dragon-mud/output"
+	"github.com/lwyj123/storysman-ex/errs"
+	"github.com/lwyj123/storysman-ex/output"
 	"github.com/mitchellh/mapstructure"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"

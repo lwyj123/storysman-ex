@@ -4,7 +4,7 @@ import (
 	"errors"
 	"path/filepath"
 
-	"github.com/bbuck/dragon-mud/logger"
+	"github.com/lwyj123/storysman-ex/logger"
 )
 
 // ProjectStructure is a skeleton of what a `DragonMUD` project should look

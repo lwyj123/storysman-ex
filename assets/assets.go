@@ -24,7 +24,7 @@ type asset struct {
 
 // Gitignore reads file data from disk. It returns an error on failure.
 func Gitignore() (*asset, error) {
-	path := "/Users/brandonbuck/Dev/go/src/github.com/bbuck/dragon-mud/assets/raw/.gitignore"
+	path := "/Users/brandonbuck/Dev/go/src/github.com/lwyj123/storysman-ex/assets/raw/.gitignore"
 	name := ".gitignore"
 	bytes, err := bindataRead(path, name)
 	if err != nil {
@@ -42,7 +42,7 @@ func Gitignore() (*asset, error) {
 
 // dragoninfoToml reads file data from disk. It returns an error on failure.
 func dragoninfoToml() (*asset, error) {
-	path := "/Users/brandonbuck/Dev/go/src/github.com/bbuck/dragon-mud/assets/raw/DragonInfo.toml"
+	path := "/Users/brandonbuck/Dev/go/src/github.com/lwyj123/storysman-ex/assets/raw/DragonInfo.toml"
 	name := "DragonInfo.toml"
 	bytes, err := bindataRead(path, name)
 	if err != nil {
@@ -60,7 +60,7 @@ func dragoninfoToml() (*asset, error) {
 
 // dragonfileToml reads file data from disk. It returns an error on failure.
 func dragonfileToml() (*asset, error) {
-	path := "/Users/brandonbuck/Dev/go/src/github.com/bbuck/dragon-mud/assets/raw/Dragonfile.toml"
+	path := "/Users/brandonbuck/Dev/go/src/github.com/lwyj123/storysman-ex/assets/raw/Dragonfile.toml"
 	name := "Dragonfile.toml"
 	bytes, err := bindataRead(path, name)
 	if err != nil {
@@ -78,7 +78,7 @@ func dragonfileToml() (*asset, error) {
 
 // initLua reads file data from disk. It returns an error on failure.
 func initLua() (*asset, error) {
-	path := "/Users/brandonbuck/Dev/go/src/github.com/bbuck/dragon-mud/assets/raw/init.lua"
+	path := "/Users/brandonbuck/Dev/go/src/github.com/lwyj123/storysman-ex/assets/raw/init.lua"
 	name := "init.lua"
 	bytes, err := bindataRead(path, name)
 	if err != nil {
@@ -96,7 +96,7 @@ func initLua() (*asset, error) {
 
 // modulesFnLua reads file data from disk. It returns an error on failure.
 func modulesFnLua() (*asset, error) {
-	path := "/Users/brandonbuck/Dev/go/src/github.com/bbuck/dragon-mud/assets/raw/modules/fn.lua"
+	path := "/Users/brandonbuck/Dev/go/src/github.com/lwyj123/storysman-ex/assets/raw/modules/fn.lua"
 	name := "modules/fn.lua"
 	bytes, err := bindataRead(path, name)
 	if err != nil {
@@ -114,7 +114,7 @@ func modulesFnLua() (*asset, error) {
 
 // testToml reads file data from disk. It returns an error on failure.
 func testToml() (*asset, error) {
-	path := "/Users/brandonbuck/Dev/go/src/github.com/bbuck/dragon-mud/assets/raw/test.toml"
+	path := "/Users/brandonbuck/Dev/go/src/github.com/lwyj123/storysman-ex/assets/raw/test.toml"
 	name := "test.toml"
 	bytes, err := bindataRead(path, name)
 	if err != nil {

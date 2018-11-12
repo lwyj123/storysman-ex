@@ -3,8 +3,8 @@ package logger_test
 import (
 	"os"
 
-	"github.com/bbuck/dragon-mud/logger"
-	"github.com/bbuck/dragon-mud/output"
+	"github.com/lwyj123/storysman-ex/logger"
+	"github.com/lwyj123/storysman-ex/output"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
