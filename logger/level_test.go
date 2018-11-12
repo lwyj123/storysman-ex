@@ -1,10 +1,10 @@
 package logger_test
 
 import (
-	"github.com/Sirupsen/logrus"
 	"github.com/bbuck/dragon-mud/logger"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/sirupsen/logrus"
 )
 
 var _ = Describe("Level", func() {

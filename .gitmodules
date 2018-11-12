@@ -1,3 +1,0 @@
-[submodule "runtime/service_rpc_idl"]
-	path = runtime/service_rpc_idl
-	url = git@code.byted.org:cpputil/service_rpc_idl.git
