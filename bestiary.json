@@ -1,0 +1,314 @@
+{
+    "grass-snake": {
+        "Name": "Grass Snake",
+        "Hostile": true,
+        "MaxHP": 4,
+        "MaxMP": 1,
+        "MaxAP": 1,
+        "MaxRP": 1,
+        "Attacks": [
+            {
+                "Name": "Hiss",
+                "Accuracy": 100,
+                "MP": 0,
+                "AP": 0,
+                "RP": 0,
+                "Charge": 1
+            },
+            {
+                "Name": "Lash",
+                "Accuracy": 50,
+                "MP": 0,
+                "AP": 1,
+                "RP": 1,
+                "Charge": 1
+            },
+            {
+                "Name": "Strike",
+                "Accuracy": 50,
+                "MP": 1,
+                "AP": 1,
+                "RP": 0,
+                "Trample": 1,
+                "Charge": 2
+            }
+        ]
+    },
+    "goat": {
+        "Name": "Grumpy Goat",
+        "Hostile": true,
+        "MaxHP": 1,
+        "MaxMP": 0,
+        "MaxAP": 0,
+        "MaxRP": 0,
+        "ItemDrops": [
+            {
+                "Name": "Shiny Rock",
+                "Probability": 0.9
+            }
+        ],
+        "Attacks": []
+    },
+    "scorpion": {
+        "Name": "Scorpion",
+        "Hostile": true,
+        "MaxHP": 6,
+        "MaxMP": 3,
+        "MaxAP": 3,
+        "MaxRP": 3,
+        "Attacks": [
+            {
+                "Name": "Skitter",
+                "Accuracy": 100,
+                "MP": 0,
+                "AP": 0,
+                "RP": 0,
+                "Charge": 1
+            },
+            {
+                "Name": "Claw",
+                "Accuracy": 75,
+                "MP": 1,
+                "AP": 2,
+                "RP": 1,
+                "Trample": 2,
+                "Charge": 2
+            },
+            {
+                "Name": "Sting",
+                "Accuracy": 95,
+                "MP": 9,
+                "AP": 5,
+                "RP": 3,
+                "Trample": 4,
+                "Charge": 4,
+                "Effects": [
+                    "poison"
+                ]
+            }
+        ]
+    },
+    "tarantula": {
+        "Name": "Tarantula",
+        "Hostile": true,
+        "MaxHP": 3,
+        "MaxMP": 2,
+        "MaxAP": 2,
+        "MaxRP": 2,
+        "Attacks": [
+            {
+                "Name": "Skitter",
+                "Accuracy": 100,
+                "MP": 0,
+                "AP": 0,
+                "RP": 0,
+                "Charge": 1
+            },
+            {
+                "Name": "Bite",
+                "Accuracy": 75,
+                "MP": 5,
+                "AP": 10,
+                "RP": 2,
+                "Trample": 2,
+                "Charge": 10,
+                "Effects": [
+                    "poison"
+                ]
+            },
+            {
+                "Name": "Spines",
+                "Accuracy": 25,
+                "MP": 3,
+                "AP": 1,
+                "RP": 3,
+                "Trample": 8,
+                "Charge": 3,
+                "Effects": [
+                    "thorn"
+                ]
+            }
+        ]
+    },
+    "rat": {
+        "Name": "Small Rat",
+        "Hostile": true,
+        "MaxHP": 5,
+        "MaxMP": 3,
+        "MaxAP": 3,
+        "MaxRP": 3,
+        "Attacks": [
+            {
+                "Name": "Bite",
+                "Accuracy": 100,
+                "MP": 0,
+                "AP": 3,
+                "RP": 0,
+                "Trample": 1,
+                "Charge": 3
+            },
+            {
+                "Name": "Leap",
+                "Accuracy": 100,
+                "MP": 0,
+                "AP": 0,
+                "RP": 3,
+                "Trample": 1,
+                "Charge": 3
+            },
+            {
+                "Name": "Scurry",
+                "Accuracy": 100,
+                "MP": 3,
+                "AP": 0,
+                "RP": 0,
+                "Trample": 1,
+                "Charge": 3
+            }
+        ]
+    },
+    "mouse": {
+        "Name": "Mouse",
+        "Hostile": true,
+        "MaxHP": 1,
+        "MaxMP": 1,
+        "MaxAP": 1,
+        "MaxRP": 1,
+        "Attacks": [
+            {
+                "Name": "Bite",
+                "Accuracy": 5,
+                "MP": 0,
+                "AP": 0,
+                "RP": 0,
+                "Trample": 1,
+                "Charge": 2
+            },
+            {
+                "Name": "Squeak",
+                "Accuracy": 0,
+                "MP": 0,
+                "AP": 0,
+                "RP": 0,
+                "Charge": 1
+            }
+        ]
+    },
+    "skeltal": {
+        "Name": "Mr. Skeltal",
+        "Hostile": true,
+        "MaxHP": 8,
+        "MaxMP": 4,
+        "MaxAP": 4,
+        "MaxRP": 4,
+        "Attacks": [
+            {
+                "Name": "Thank",
+                "Accuracy": 0,
+                "MP": 1,
+                "AP": 1,
+                "RP": 1,
+                "Charge": 1
+            },
+            {
+                "Name": "Shake",
+                "Accuracy": 5,
+                "MP": 4,
+                "AP": 1,
+                "RP": 1,
+                "Charge": 2
+            },
+            {
+                "Name": "Rattle",
+                "Accuracy": 0,
+                "MP": 1,
+                "AP": 0,
+                "RP": 0,
+                "Charge": 2
+            },
+            {
+                "Name": "Roll",
+                "Accuracy": 0,
+                "MP": 1,
+                "AP": 0,
+                "RP": 3,
+                "Charge": 2
+            },
+            {
+                "Name": "Doot doot",
+                "Accuracy": 100,
+                "MP": 7,
+                "AP": 1,
+                "RP": 1,
+                "Trample": 5,
+                "Charge": 8,
+                "OutputsItems": [
+                    "Skull"
+                ]
+            }
+        ]
+    },
+    "vagabond": {
+        "Name": "Vagabond",
+        "Hostile": true,
+        "MaxHP": 6,
+        "MaxMP": 4,
+        "MaxAP": 4,
+        "MaxRP": 4,
+        "Attacks": [
+            {
+                "Name": "Stab",
+                "Accuracy": 75,
+                "MP": 5,
+                "AP": 4,
+                "RP": 2,
+                "Charge": 3
+            },
+            {
+                "Name": "Shank",
+                "Accuracy": 75,
+                "MP": 4,
+                "AP": 3,
+                "RP": 2,
+                "Charge": 4
+            },
+            {
+                "Name": "Rock Throw",
+                "Accuracy": 90,
+                "MP": 0,
+                "AP": 2,
+                "RP": 6,
+                "Charge": 5
+            }
+        ]
+    },
+    "centipede": {
+        "Name": "Centipede",
+        "Hostile": true,
+        "MaxHP": 8,
+        "MaxMP": 4,
+        "MaxAP": 4,
+        "MaxRP": 4,
+        "Attacks": [
+            {
+                "Name": "Skitter",
+                "Accuracy": 50,
+                "MP": 1,
+                "AP": 1,
+                "RP": 1,
+                "Charge": 1
+            },
+            {
+                "Name": "Bite",
+                "Accuracy": 80,
+                "MP": 0,
+                "AP": 0,
+                "RP": 0,
+                "Charge": 6,
+                "Effects": [
+                    "poison"
+                ]
+            }
+        ]
+    }
+}

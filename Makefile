@@ -1,51 +1,12 @@
-.PHONY: start build run lint clean doc dev docker-build docker-image docker-image-staging docker-image-dev start-docker-dev stop-docker-dev
+OUTFILES := $(patsubst cmd/%.go,bin/%,$(wildcard cmd/*.go))
 
-GONAME=api
+bin/%: cmd/%.go
+	go build -o $@ $<
 
-default: build
+all: clean dep $(OUTFILES)
 
-init:
-	@git submodule init && git submodule update --recursive
+dep:
+	dep ensure
 
-update:
-	@git submodule update --recursive && sh ./thrift_gen.sh
-
-start:
-	# @GIN_MODE=release ./bin/$(GONAME) 
-	@export export GO111MODULE=on && go run *.go
-
-build:
-	@go build -o bin/$(GONAME) 
-
-# run:
-# 	@./bin/$(GONAME) 
-
-# lint:
-# 	@golint
-
-# clean:
-# 	@go clean && rm -rf ./bin/$(GONAME) && rm -f gin-bin
-
-# doc:
-# 	godoc -http=:6060 -index
-
-# dev:
-# 	@gin -a 8080 -p 3030 run main.go
-
-# docker-build: clean
-# 	@docker-compose -f docker/development/docker-compose.yml run --rm api make build
-
-# docker-image: docker-build 
-# 	@docker build -t my-api:latest .
-
-# docker-image-staging: docker-build 
-# 	@docker build -t my-api:staging .
-
-# docker-image-dev:
-# 	@docker-compose -f docker/development/docker-compose.yml run --rm api dep ensure -v
-
-# start-docker-dev:
-# 	@docker-compose up -d
-
-# stop-docker-dev:
-# 	@docker-compose down
+clean:
+	rm bin/* || true
